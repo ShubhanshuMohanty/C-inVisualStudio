@@ -27,6 +27,13 @@ namespace FsConsoleApp
             Console.Write("Enter Ticket Cost: ");
             ticketCost = double.Parse(Console.ReadLine());
         }
+        public void Display()
+        {
+            Console.WriteLine("Customer Number: " + cno);
+            Console.WriteLine("Phone Number: " + phno);
+            Console.WriteLine("Customer Name: " + name);
+            Console.WriteLine("Ticket Cost after Discount: " + ticketCost);
+        }
     }
     internal class Case2
     {
